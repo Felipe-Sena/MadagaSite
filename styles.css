@@ -148,3 +148,15 @@ h2 {
     max-width: 100%;
     border-radius: 0.5rem;
 }
+
+iframe {
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.centered_text {
+    text-align: center;
+    padding-top: 22rem;
+}
