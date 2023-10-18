@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #e2e2e2;
+    background-image: linear-gradient(to top, #dfdfdf, #fdfdfd);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+
+#navbar_title {
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#navbar_title a {
+    background-color: #c5b6d1;
+    background-image: linear-gradient(0.1turn, #d8d8d8, #7e7e7e);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#navbar_title a:hover {
+    background-image: linear-gradient(0.1turn, #1d1d1d, #636363);
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.navbar_links {
+    color: #000000;
+    display: flex;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-weight: 520;
+    transition: all 0.3s ease;
+}
+
+.navbar_links:hover {
+    color:#f30b0b;
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: #dadada;
+}
+
+h1 {
+    padding-top: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    color: #020202;
+    text-align: center;
+}
+
+.inline_title {
+    text-align: left;
+    font-size: 1.7rem;
+    padding-top: 20px;
+    background-image: linear-gradient(0.1turn, #2181ff, #297cfa 50%);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.grid_boxes_div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.grid_boxes_container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows: 20rem 20rem;
+    gap: 5rem;
+}
+
+.grid_boxes {
+    background-image: linear-gradient(0.1turn, #bdbdbd, #d6d6d6 50%);
+    width: 20rem;
+    height: 25rem; /*CHANGE LATER*/
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.grid_boxes:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    background-image: linear-gradient(0.1turn, #a5a5a5, #e6e6e6 50%);
+    transition: all 2s ease;
+}
+
+.grid_box_content {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.grid_box_image {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
