@@ -161,3 +161,14 @@ iframe {
     padding-top: 22rem;
     padding-bottom: 3rem;
 }
+
+.MADAGA {
+    background-color: #c5b6d1;
+    background-image: linear-gradient(0.1turn, #d8d8d8, #7e7e7e);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
