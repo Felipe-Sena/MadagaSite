@@ -8,8 +8,7 @@
 }
 
 .navbar {
-    background-color: #e2e2e2;
-    background-image: linear-gradient(to top, #dfdfdf, #fdfdfd);
+    background-color: #222222;
     height: 80px;
     display: flex;
     justify-content: center;
